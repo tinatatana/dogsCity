@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #552457;
+}
+body {
+  margin: 100px auto;
+  font-family: "Caveat", cursive;
+  max-width: 800px;
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
+  padding: 20px 40px 20px 40px;
+}
+.navbar {
+  background: #68c6e3;
+  color: var(--primary-color);
+}
+.nav-link {
+  color: var(--primary-color);
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  text-shadow: #e9a4a4 1px 0 10px;
+}
+a:hover {
+  color: var(--primary-color);
+  text-shadow: #e86666 1px 0 10px;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-family: "Pacifico", cursive;
+  font-size: 54px;
+  text-shadow: #e9a4a4 1px 0 10px;
+}
+h2 {
+  color: var(--primary-color);
+  font-family: "Pacifico", cursive;
+  text-shadow: #e9a4a4 1px 0 10px;
+}
+p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+.description {
+  background: #e866663e;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+.contact {
+  color: var(--primary-color);
+  text-align: center;
+  text-shadow: #e9a4a4 1px 0 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.email {
+  text-decoration: underline;
+}
