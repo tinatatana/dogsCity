@@ -41,7 +41,6 @@ h1 {
 h2 {
   color: var(--primary-color);
   font-family: "Pacifico", cursive;
-  text-shadow: #e9a4a4 1px 0 10px;
 }
 p {
   font-size: 24px;
